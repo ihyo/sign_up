@@ -1,9 +1,9 @@
 <?
 function dbconn(){
-$host_name="localhost";
-$db_user_id ="root";
+$host_name="user";
+$db_user_id ="mdp";
 $db_name="custom";
-$db_pw="autoset";
+$db_pw="4team";
 $connect=@mysql_connect($host_name, $db_user_id, $db_pw);
 mysql_query("set names utf8", $connect);
 mysql_select_db($db_name, $connect);
