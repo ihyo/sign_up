@@ -4,10 +4,10 @@
 </head>
 <body>
   <?
-      include("./dbconnection.php");
+      include("dbconnection.php");
       $connect=dbconn();
   ?>
-  <form action='./post.php' name='review_table' method='post'>
+  <form action='post.php' name='review_table' method='post'>
 <br>
 <br>
 <CENTER>DB로 전송할 값 입력받기</b></div><br>
