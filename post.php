@@ -13,5 +13,5 @@
 
  <script>
  windows.alert('DB로 전송 완료 !');
- location.href='main.php'
+ location.href='main.html'
  </script>
