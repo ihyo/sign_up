@@ -1,5 +1,5 @@
 <?php
-    include 'https://github.com/ihyo/sign_up/dbconnection.php';
+    include 'dbconnection.php';
     $connect=dbconn();
 
     $userid=$_POST['custom_id'];
@@ -13,5 +13,5 @@
 
  <script>
  windows.alert('DB로 전송 완료 !');
- location.href='https://github.com/ihyo/sign_up/main.html'
+ location.href='main.html'
  </script>
